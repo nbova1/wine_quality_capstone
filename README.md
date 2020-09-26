@@ -11,4 +11,4 @@ There are four files available.
   
 The dataset is also available at: https://archive.ics.uci.edu/ml/datasets/Wine+Quality 
   
-Note: 15 models are used in the modeling section. Since we are using the caret package, these are not being loaded upfront and they are not detected by RStudio as a dependency. If you are running the code, when the caret package is run in the modeling section, you will be prompted in the console window to load any missing packages. These prompts happen individually for each missing package.
+Note: 15 models are used in the modeling section. Since we are using the caret package, these are not being loaded upfront and they are not detected by RStudio as a dependency. If you are running the code, when the caret package is run in the modeling section, you will be prompted in the console window to load any missing packages. These prompts happen individually for each missing package. Pre-loading all potential libraries used by caret was found to create errors due to masking.
