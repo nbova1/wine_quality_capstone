@@ -18,7 +18,7 @@ output:
 
 This project has been prepared as second part of the HarvardX Data Science Series[^1] Capstone Course. For this "Choose Your Own" project, the Wine Quality Data Set from UCI (University of California, Irvine) Machine Learning Repository is being used.[^2] The dataset is related to white vinho verde wine samples from the north of Portugal. The dataset contains physicochemical tests for an individual wine and an associated quality score.
 
-[^1]: <https://www.edx.org/professional-certificate/harvardx-data-science>\
+[^1]: <https://www.edx.org/professional-certificate/harvardx-data-science>
 
 [^2]: P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009. <https://archive.ics.uci.edu/ml/datasets/Wine+Quality>
 
@@ -40,7 +40,7 @@ The overall project method of approach was to:
 
 3.  Standardize the data
 
-4.  Review principal components
+4.  Unsupervised model and principal component analysis
 
 5.  Evaluate prediction models
 
