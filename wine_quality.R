@@ -14,6 +14,33 @@ knitr::opts_chunk$set(
 	echo = TRUE
 )
 
+#install packages if needed
+if(!require(tidyverse)) install.packages("tidyverse")
+if(!require(caret)) install.packages("caret")
+if(!require(knitr)) install.packages("knitr")
+if(!require(kableExtra)) install.packages("kableExtra")
+if(!require(rpart)) install.packages("rpart")
+if(!require(rpart.plot)) install.packages("rpart.plot")
+if(!require(AppliedPredictiveModeling)) install.packages("AppliedPredictiveModeling")
+if(!require(corrplot)) install.packages("corrplot")
+if(!require(randomForest)) install.packages("randomForest")
+if(!require(FactoMineR)) install.packages("FactoMineR")
+if(!require(factoextra)) install.packages("factoextra")
+if(!require(broom)) install.packages("broom")
+if(!require(corrplot)) install.packages("corrplot")
+if(!require(kernlab)) install.packages("kernlab")
+if(!require(mboost)) install.packages("mboost")
+if(!require(import)) install.packages("import")
+if(!require(gam)) install.packages("gam")
+if(!require(kknn)) install.packages("kknn")
+if(!require(Rborist)) install.packages("Rborist")
+if(!require(gam)) install.packages("gam")
+if(!require(mgcv)) install.packages("mgcv")
+if(!require(nlme)) install.packages("nlme")
+if(!require(RSNNS)) install.packages("RSNNS")
+detach(package:RSNNS) #this package masks key functions from the caret package
+
+
 #Load the libraries
 library(tidyverse)
 library(caret)
