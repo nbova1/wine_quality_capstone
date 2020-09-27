@@ -208,7 +208,7 @@ train_category <- train_rating %>%
 
 ## Correlation matrix of variables
 
-In order to further understand how the features and outcomes might be related, let's look at the correlation matrix. The correlation matrix between all variables are shown below along with a plot of the correlation matrix.
+In order to further understand how the features and outcomes might be related, let's look at the correlation matrix. The correlation matrix between all variables are shown below along with a plot of the correlation matrix (Figure 1).
 
 ```{r correlation_matrix, echo=FALSE, fig.cap="Correlation Plot"}
 # display a table containing the correlation matrix
